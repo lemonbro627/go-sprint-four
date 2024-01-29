@@ -22,9 +22,9 @@ jobs:
           repository: 'Yandex-Practicum/go-autotests'
           path: '.autotests'
 
-      - name: Gather files
-        run: |
-          cp .autotests/cmd/fitnesstest/main_test.go ftracker/main_test.go
+      # - name: Gather files
+      #   run: |
+      #     cp .autotests/cmd/fitnesstest/main_test.go ftracker/main_test.go
 
       - name: Run tests
         run: |
